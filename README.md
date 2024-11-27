@@ -6,35 +6,35 @@ This project evaluates the results of a digital experiment conducted by Vanguard
 
 ## A/B Testing
 
-Control Group: Clients experienced Vanguard's traditional online process.
-Test Group: Clients interacted with the redesigned UI, featuring in-context prompts.
+- Control Group: Clients experienced Vanguard's traditional online process.
+- Test Group: Clients interacted with the redesigned UI, featuring in-context prompts.
 
-Process Steps: Both groups navigated through a sequence: 
-Start: introduction and client onboarding by entering account logon and personal details
-Step 1: User inputs financial information, balances, assets, debts
-Step 2: Explore different investments strategies and goals
-Step 3: Charts with potential investment outcomes
-Confirm: Approve plan with print/share options 
+- Process Steps: Both groups navigated through a sequence: 
+- Start: introduction and client onboarding by entering account logon and personal details
+- Step 1: User inputs financial information, balances, assets, debts
+- Step 2: Explore different investments strategies and goals
+- Step 3: Charts with potential investment outcomes
+- Confirm: Approve plan with print/share options 
 
-Goal: Assess if the redesigned UI leads to higher process completion rates and better KPI results.
+- Goal: Assess if the redesigned UI leads to higher process completion rates and better KPI results.
 
 ## Data:
 
 The dataset contains the following fields:
 
-client_id: Unique identifier for each client.
-variation: Group assignment (Test or Control).
-visitor_id: Unique ID for each client-device combination.
-visit_id: Unique ID for each web session.
-process_step: The step in the digital process.
-date_time: Timestamp of web activity.
-clnt_tenure_yr/mnth: Client tenure in years and months.
-clnt_age: Age of the client.
-gendr: Gender of the client.
-num_accts: Number of accounts the client holds.
-bal: Total balance across all accounts.
-calls_6_mnth: Number of client calls in the past six months.
-logons_6_mnth: Number of client logons in the past six months.
+- client_id: Unique identifier for each client.
+- variation: Group assignment (Test or Control).
+- visitor_id: Unique ID for each client-device combination.
+- visit_id: Unique ID for each web session.
+- process_step: The step in the digital process.
+- date_time: Timestamp of web activity.
+- clnt_tenure_yr/mnth: Client tenure in years and months.
+- clnt_age: Age of the client.
+- gendr: Gender of the client.
+- num_accts: Number of accounts the client holds.
+- bal: Total balance across all accounts.
+- calls_6_mnth: Number of client calls in the past six months.
+- logons_6_mnth: Number of client logons in the past six months.
 
 ## Methodology
 
