@@ -83,11 +83,11 @@ Two-Sample T-Test:
 - Jonathan
 
 ## Links
-Canva: 
+1) Canva: 
 https://www.canva.com/design/DAGXM2Uu19k/nMY5MEVzCy5PUiihnY_8-A/edit?utm_content=DAGXM2Uu19k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-Trello:
+2) Trello:
 https://trello.com/b/Xd4Qw3FF/kanban-project2
-Tableau Dashboards:
+3) Tableau Dashboards:
 - Main user profile: 
 https://public.tableau.com/app/profile/friederike.augustin/viz/vanguard_customer_profile/Dashboard_User_Profile
 - Clients' Investments:
