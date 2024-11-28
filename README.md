@@ -39,32 +39,32 @@ The dataset contains the following fields:
 ## Methodology
 
 1) Data Cleaning and EDA 
-Explored the data using Pandas, Matplotlib and Seaborn to identify data cleaning problems, patterns and trends to provide a client behavior analysis.
+- Explored the data using Pandas, Matplotlib and Seaborn to identify data cleaning problems, patterns and trends to provide a client behavior analysis.
 
 2) Calculated Key Performance Indicators 
-Completion Rate: The proportion of users who reach the final ‘confirm’ step.
-Time Spent on Each Step: The average duration users spend on each step.
-Error Rates: If there’s a step where users go back to a previous step, it may indicate confusion or an error. You should consider moving from a later step to an earlier one as an error.
+- Completion Rate: The proportion of users who reach the final ‘confirm’ step.
+- Time Spent on Each Step: The average duration users spend on each step.
+- Error Rates: If there’s a step where users go back to a previous step, it may indicate confusion or an error. You should consider moving from a later step to an earlier one as an error.
 
 3) Hypothesis Testing
-We conducted 2 separate tests comparing the control and test groups from the A/B testing:
+- We conducted 2 separate tests comparing the control and test groups from the A/B testing:
 
 Two-Sample Z Test:
-H0: completion_rate_test <= completion_rate_control
-H1: completion_rate_test > completion_rate_control
+- H0: completion_rate_test <= completion_rate_control
+- H1: completion_rate_test > completion_rate_control
 
 Two-Sample T-Test:
-H0: avg_time_spent_per_step_younger >= avg_time_spent_per_step_older
-H1: avg_time_spent_per_step_younger < avg_time_spent_per_step_older
+- H0: avg_time_spent_per_step_younger >= avg_time_spent_per_step_older
+- H1: avg_time_spent_per_step_younger < avg_time_spent_per_step_older
 
 4) Experiment Evaluation
-Assessed whether the experiment was well-structured and recommended improvements
+- Assessed whether the experiment was well-structured and recommended improvements
 
 5) Data Visualization and Insights
-Utilized Tableau to create interactive dashboards with key findings.
+- Utilized Tableau to create interactive dashboards with key findings.
 
 6) Presentation
-Presentation slides explaining our process, findings, insights and recommendations with visuals are found at this link: https://www.canva.com/design/DAGXM2Uu19k/nMY5MEVzCy5PUiihnY_8-A/edit?utm_content=DAGXM2Uu19k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+- Presentation slides explaining our process, findings, insights and recommendations with visuals are found in the links section.
 
 ## Libraries and Tools Used
 - Juypter
@@ -81,3 +81,16 @@ Presentation slides explaining our process, findings, insights and recommendatio
 ## Team Members
 - Fritzi
 - Jonathan
+
+## Links
+Canva: 
+https://www.canva.com/design/DAGXM2Uu19k/nMY5MEVzCy5PUiihnY_8-A/edit?utm_content=DAGXM2Uu19k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Trello:
+https://trello.com/b/Xd4Qw3FF/kanban-project2
+Tableau Dashboards:
+- Main user profile: 
+https://public.tableau.com/app/profile/friederike.augustin/viz/vanguard_customer_profile/Dashboard_User_Profile
+- Clients' Investments:
+https://public.tableau.com/app/profile/friederike.augustin/viz/vanguard_customer_profile/Dashboard_Bal_Accounts?publish=yes
+- Vanguard KPI's:
+https://public.tableau.com/app/profile/jonathan.tsui8842/viz/project2KPI/Dashboard1?publish=yes
